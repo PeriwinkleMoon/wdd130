@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: #FCA6C9;
+    font-family: arial;
+    color: black;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.quote {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    font-size: 20px;
+    color: white;
+}
+header:hover {
+    color: black;
+}
+#header-quote {
+
+    max-width: 440px;
+    margin: 0 auto;
+}
+h2 {
+    color: white;
+    font-size: 17px;
+}
+.list {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 2em;
+    font-weight: 900;
+}
+img {
+    width: 45%;
+}
+#body-quote {
+    font-size: 50px;
+    max-width: 450px;
+}
+footer p {
+    font-size: 19px;
+    line-height: 18px;
+    font-weight: 500;
+    max-width: 440px;
+    margin: 0 auto;
+}
