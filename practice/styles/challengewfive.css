@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(115,115,115);
+    margin: 0 auto;
+    max-width: 1500px;
+}
+#box {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.subheader img {
+    width: 250px;
+    border: 10px solid rgb(68,68,68);
+    border-radius: 50%;
+    margin: 35px 50px;
+}
