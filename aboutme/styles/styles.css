@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,600&family=Crimson+Text&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Young+Serif&display=swap');
 
 :root {
     /* Fonts */
-    --heading-font: "Asap";
-    --paragraphy-font: "Crimson Text", sans-serif;
+    --heading-font: "Young Serif";
+    --paragraphy-font: "Dosis", sans-serif;
 
     /* Colors */
     --primary-color: rgb(141, 111, 48);
     --background-color: rgb(82, 69, 42);
     --background-color-2: rgb(59, 48, 25);
     --secondary-background-color: rgb(141, 170, 157);
+    --font-fade: rgb(37, 29, 12);
 }
 
 * {
@@ -20,6 +21,7 @@
 body {
     background-image: linear-gradient(var(--background-color-2), var(--background-color));
     font-size: large;
+    margin: 0;
 }
 
 .header {
@@ -39,8 +41,8 @@ body {
 
 .left,
 .right {
-    padding: 200px;
-    height: 200px;
+    padding: 100px;
+    height: 100px;
 }
 
 .left {
@@ -60,7 +62,7 @@ body {
 .footer {
     grid-area: footer;
     background-color: var(--primary-color);
-    padding: 10px;
+    padding: 0;
     text-align: center;
 }
 
@@ -72,10 +74,23 @@ img {
 }
 h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
+    color: var(--font-fade);
+}
+.subheader-box {
+    text-align: center;
+    margin: 0 20em;
+}
+.subheader {
+    background-color: var(--primary-color);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+h3 {
+    color: var(--font-fade);
 }
 p {
     font-family: var(--paragraphy-font);
-    font-weight: bold;
+    
 }
 hr {
     height: 5px;
