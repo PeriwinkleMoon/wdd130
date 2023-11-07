@@ -34,7 +34,7 @@ h2 {
 #logo_link {
     padding-top: 5px;
     justify-self: center;
-    align-self: centers;
+    align-self: center;
 }
 .logo {
     width: 80px;
@@ -217,7 +217,85 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+/* ##################### FAQ PAGE ####################### */
 
+.faq-grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.faq-title {
+    font-size: 3em;
+    padding-top: 20px;
+}
+.Q-and-A {
+    border: 2px solid var(--font-color2);
+    width: 1600px;
+    margin: 5px;
+    grid-column: 1/10;
+    text-align: left;
+}
+.question {
+    background-color: var(--secondardy-color);
+    color: var(--font-color2);
+    display: flex;
+    align-items: center;
+}
+.answer {
+    margin-left: 5em;
+    padding: 15px;
+    display: flex;
+}
+
+.question-icon {
+    border: gray solid 1px;
+    margin: 10px;
+    margin-left: 5em;
+}
+.answer-icon {
+    border: gray solid 1px;
+    margin: 10px;
+    height: 111px
+}
+
+.contact-card-img {
+    grid-column: 6/10;
+    grid-row: 9/11;
+    z-index: 1;
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px var(--font-color2);
+}
+.contact-questions-card {
+    background-color: var(--font-color);
+    line-height: 1.5em;
+    grid-column: 2/6;
+    grid-row: 9/11;
+    padding: 35px;
+    margin: 20px;
+    margin-top: 110px;
+    margin-right: -10px;
+    box-shadow: 5px 5px 10px var(--font-color2);
+    text-align: center;
+}
+.inner-card-box {
+    background-color: rgb(209, 128, 55, .8);
+    padding: 20px;
+}
+.p-head {
+    color: var(--font-color2);
+    font-family: "Boogaloo", Arial, Verdana, sans-serif;
+    font-size: 2em;
+}
+.p-sub {
+    color: var(--font-color2);
+    font-family: "Boogaloo", Arial, Verdana, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+}
+#faq-button {
+    font-size: 1.5em;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
