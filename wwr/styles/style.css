@@ -230,8 +230,8 @@ footer .social img {
 }
 .Q-and-A {
     border: 2px solid var(--font-color2);
-    width: 1600px;
-    margin: 5px;
+    width: 1500px;
+    margin: 10px;
     grid-column: 1/10;
     text-align: left;
 }
