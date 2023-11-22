@@ -2,7 +2,7 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #9793cc   ;
+  --primary-color: #bcaaf3   ;
   --secondary-color: #3B6DDA ;
   --accent1-color: #DECDF5;
   --accent2-color: #C4CCFA;
@@ -16,7 +16,7 @@
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #3B6DDA; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #9793cc  ;
+  --paragraph-background-color: #bcaaf3  ;
   --nav-link-color: white;
   --nav-background-color: #3B6DDA;
   --nav-hover-link-color: rgb(35, 13, 48);
@@ -129,7 +129,7 @@ a:hover {
     padding-top: 35px;
 }
 .contact-box {
-    background-color: #9793cc;
+    background-color: #bcaaf3;
     grid-column: 2/9;
     grid-row: 2/3;
     padding: 20px 20px;
@@ -149,9 +149,6 @@ a:hover {
 }
 .contact-box p:nth-of-type(2) {
     font-size: 20px;
-}
-.contact-box h2 {
-    color: var(--accent1-color);
 }
 .button-box {
     text-align: center;
@@ -230,7 +227,7 @@ footer a {
         font-size: 3em;
     }
     .contact-box {
-        background-color: #9793cc;
+        background-color: #bcaaf3;
         grid-column: 2/10;
         grid-row: 2/3;
         padding: 20px 20px;
