@@ -245,7 +245,6 @@ input[type=text], select, textarea{
     padding: 12px 10%;
     display: inline-block;
     border: 3px solid #C4CCFA;
-    border-radius: 12%;
     background-color: #C4CCFA;
   }
   
@@ -264,7 +263,7 @@ input[type=text], select, textarea{
   .container {
     border-radius: 5px;
     background-color: var(--paragraph-background-color);
-    padding: 20px;
+    padding: 2%;
     margin: 0 5% 5% 5%;
   }
   
@@ -341,11 +340,20 @@ footer a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .col-75 {
+    .row {
         margin-left: 5%;
       }
+    .submit-button {
+       margin-top: 2%;
+    }
+    .col-75 {
+        width: 95%;
+        display: grid;
+    }
     .col-25 {
-        width: 30%;
+        width: 60%;
+        display: grid;
+        text-align: left;
     }
 }
 
