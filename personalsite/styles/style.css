@@ -243,7 +243,8 @@ input[type=text], select, textarea{
   /* Style the label to display next to the inputs */
   label {
     padding: 12px 10%;
-    display: inline-block;
+    display: grid;
+    margin: 0 5%;
     border: 3px solid #C4CCFA;
     background-color: #C4CCFA;
   }
@@ -354,6 +355,7 @@ footer a {
         width: 60%;
         display: grid;
         text-align: left;
+        margin-left: -3%;
     }
 }
 
