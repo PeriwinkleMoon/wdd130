@@ -197,6 +197,98 @@ a:hover {
     padding-left: 2em;
 }
 
+
+/* ---CONTACT ME CSS--- */
+
+.contact-content {
+    display: grid;
+    background-color: white;
+    margin-top: -50px;
+}
+.contact-content a {
+    color: #3B6DDA;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+.contact-content a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.contact-content section {
+    padding-top: 10%;
+    margin: 0 8% 20px;
+    background-color: var(--paragraph-background-color);
+    border-radius: 25px;
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 10%;
+    display: inline-block;
+    border: 3px solid #C4CCFA;
+    border-radius: 12%;
+    background-color: #C4CCFA;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container {
+    border-radius: 5px;
+    background-color: var(--paragraph-background-color);
+    padding: 20px;
+    margin: 0 5% 5% 5%;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* ---FOOTER CSS--- */
 
 footer {
@@ -244,6 +336,16 @@ footer a {
     .example1 {
         grid-row: 1;
         margin-top: 300px;
+    }
+    .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .col-75 {
+        margin-left: 5%;
+      }
+    .col-25 {
+        width: 30%;
     }
 }
 
