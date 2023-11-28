@@ -205,6 +205,10 @@ a:hover {
     background-color: white;
     margin-top: -50px;
 }
+.contact-content p {
+    padding: 3%;
+    font-size: 1.1em;
+}
 .contact-content a {
     color: #3B6DDA;
     text-decoration: none;
