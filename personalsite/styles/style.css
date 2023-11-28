@@ -82,6 +82,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -40px;
+    margin-bottom: -20px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -96,6 +97,7 @@ a:hover {
 }
 #hero-img {
     width: 100%;
+    
 }
 .home-title {
     color: white;
@@ -195,6 +197,79 @@ a:hover {
 .msg2 li{
     text-align: left;
     padding-left: 2em;
+}
+
+/* ---TOS AND PRICING CSS--- */
+
+.tos-body {
+    padding: 50px 70px;
+    padding-top: 20px;
+    background-color: white;
+}
+.tos-body a {
+    text-decoration: none;
+    color: black;
+}
+.tos-body a:hover {
+    color: #3B6DDA;
+    text-decoration: underline;
+}
+.tos-body h3 {
+    font-size: 30px;
+}
+.header-box h1 {
+    background-color: #3B6DDA;
+    color: white;
+    padding: 1%;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 25px auto;
+    margin-top: 35px;
+}
+.tos-section {
+    padding: 0 100px ;
+    text-align: left;
+}
+.tos-section li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.bullet {
+    padding-right: 10px;
+    font-size: 21px;
+}
+.sub {
+    background-color: #C4CCFA;
+    max-width: 850px;
+    padding: 10px;
+    line-height: 2em;
+    margin: 0 auto;
+    margin-top: -25px;
+}
+.pricing-grid {
+    padding: 0 120px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+.pricing-grid img {
+    margin-bottom: auto;
+}
+.price-header {
+    grid-column: 1/4;
+    line-height: .5em;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+.pricing-grid h4 {
+    font-size: 22px;
+    margin-top: -20px;
+    margin-bottom: -12px;
+}
+.additional-info {
+    margin-top: 40px;
+    grid-column: 1/4;
 }
 
 
@@ -319,8 +394,12 @@ footer a {
 /* --- RESPONSIVE PAGE --- */
 
 @media screen and (max-width: 1300px){
+    #hero-img {
+        margin-bottom: -70px;
+    }
     .home-title {
         font-size: 3em;
+        margin-bottom: 120px;
     }
     .contact-box {
         background-color: #bcaaf3;
@@ -361,12 +440,31 @@ footer a {
         text-align: left;
         margin-left: -3%;
     }
+    .pricing-grid {
+        font-size: 15px;
+    }
+    .pricing-grid h4 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .pricing-grid {
+        padding: 0 60px;
+    }
 }
 
 @media screen and (max-width: 900px) {
  #hero, .home-grid {
     display: block;
     height: auto;
+}
+.home-title {
+    margin-bottom: 50px;
+}
+.home-grid {
+    padding-top: 100px;
+    margin-top: -150px;
 }
 nav, footer {
     flex-direction: column;
@@ -379,10 +477,25 @@ nav a {
     margin-top: 0;
 }
 .home-title {
-    margin-top: -80px;
+    z-index: 1;
+    margin-top: -30px;
     font-size: 50px;
     color: var(--headline-color-on-white);
     text-shadow: none;
+}
+.tos-body {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: -25px;
+}
+.tos-body {
+    margin-top: -150px;
+}
+
+.pricing-grid {
+    display: block;
+    font-size: 18px;
 }
 .msg1, .contact-box, .msg2 {
     margin: 5px auto;
