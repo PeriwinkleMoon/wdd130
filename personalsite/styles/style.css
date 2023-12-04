@@ -205,7 +205,7 @@ a:hover {
     padding: 50px 70px;
     padding-top: 20px;
     background-color: white;
-}
+}design
 .tos-body a {
     text-decoration: none;
     color: black;
@@ -272,6 +272,82 @@ a:hover {
     grid-column: 1/4;
 }
 
+/* ---PORTFOLIO CSS--- */
+
+.portfolio-content {
+    background-color: white;
+    padding: 50px 70px;
+}
+.highlight {
+    padding-bottom: 30px;
+}
+.highlight a {
+    text-decoration: none;
+    color:#3B6DDA;
+}
+.highlight a:hover {
+    color: #bcaaf3;
+    text-decoration: underline;
+}
+.category-banner {
+    position: relative;
+    text-align: center;
+    color:white;
+}
+.port-banner {
+    padding-left: 0;
+    width: 100%;
+    height: auto;
+}
+.portfolio-content section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+.banner-header {
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    color: white;
+    font-size: 4em;
+    padding-left: 20px;
+    text-shadow: 3px 3px 20px black,
+                    3px 3px 20px black,
+                        3px 3px 20px black;
+
+}
+.design-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.illustration-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.specialty-grid1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.specialty-grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 15%;
+}
+.portfolio-content section{
+    margin: 20px;
+}
+.portfolio-content section a {
+    text-decoration: none;
+    color: #3B6DDA;
+}
+.portfolio-content a:hover, .portfolio-content h3:hover {
+    text-decoration: underline;
+    color: #bcaaf3;   
+}
+.portfolio-content h3 {
+    font-size: 1.6em;
+    line-height: 1.1em;
+}
 
 /* ---CONTACT ME CSS--- */
 
@@ -303,7 +379,7 @@ a:hover {
     background-color: var(--paragraph-background-color);
     border-radius: 25px;
 }
-section img {
+.contact-content section img {
     max-width: 100%;
     height: auto;
     border-radius: 10%;
@@ -446,11 +522,17 @@ footer a {
     .pricing-grid h4 {
         font-size: 17px;
     }
+    .banner-header {
+        font-size: 3em;
+    }
 }
 
 @media screen and (max-width: 1200px){
     .pricing-grid {
         padding: 0 60px;
+    }
+    .banner-header {
+        font-size: 2.5em;
     }
 }
 
@@ -483,6 +565,12 @@ nav a {
     color: var(--headline-color-on-white);
     text-shadow: none;
 }
+.contact-content {
+    padding-top: 100px;
+    margin-top: -170px;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+}
 .tos-body {
     padding-top: 50px;
     padding-left: 5px;
@@ -505,5 +593,21 @@ nav a {
 }
 footer {
     margin-top: 25px;
+}
+.banner-header {
+    font-size: 1.5em;
+}
+.portfolio-content {
+    padding: 100px 0px;
+    margin-top: -160px;
+}
+.highlight {
+    padding: 20px;
+}
+.design-grid, .illustration-grid, .specialty-grid1, .specialty-grid2 {
+    grid-template-columns: 1fr 1fr;
+}
+.specialty-grid2 {
+    margin: 0;
 }
 }
