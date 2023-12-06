@@ -194,11 +194,13 @@ a:hover {
     padding: 0 30px;
     padding-top: 20px;
 }
-.msg2 li{
+.msg2 ul {
     text-align: left;
     padding-left: 2em;
 }
-
+li {
+    padding-bottom: 10px;
+}
 /* ---TOS AND PRICING CSS--- */
 
 .tos-body {
@@ -229,6 +231,9 @@ a:hover {
 .tos-section {
     padding: 0 100px ;
     text-align: left;
+}
+.tos-section ul {
+    padding-left: 0;
 }
 .tos-section li {
     list-style: none;
